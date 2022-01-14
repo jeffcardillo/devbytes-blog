@@ -1,0 +1,23 @@
+name: Jeff Cardillo
+dp: https://jeffcardillo.com/blog/wp-content/uploads/2015/01/me_glass_square.jpg
+description: "
+  <p>
+    Dad, software engineer, private pilot. 
+  </p>
+  <br/>
+  <p>
+    Checkout some of my public projects on <a href='https://github.com/jeffcardillo' target='_blank'>Github</a>
+  </P>
+"
+email: jeffrey.cardillo@gmail.com
+contact:
+  # - title: linkedin
+  #   url: https://www.linkedin.com/
+  - title: github
+    url: https://github.com/jeffcardillo
+  - title: twitter
+    url: https://twitter.com/jeffcardillo
+  # - title: dev
+  #   url: https://dev.to/jeffcardillo
+  - title: email
+    url: mailto:jeffrey.cardillo@gmail.com

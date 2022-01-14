@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Proton on DevBytes</title>
+    <link>https://jeffcardillo.com/blog2/tags/proton/</link>
+    <description>Recent content in Proton on DevBytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Oct 2018 00:44:58 -0500</lastBuildDate><atom:link href="https://jeffcardillo.com/blog2/tags/proton/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hopeworks Code Day (Talk/Lab) - Arduino Circuit and Code Talk</title>
+      <link>https://jeffcardillo.com/blog2/posts/hopeworks-code-day-2018/</link>
+      <pubDate>Sat, 20 Oct 2018 00:44:58 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/posts/hopeworks-code-day-2018/</guid>
+      <description>This project reads the light level using a photoresistor and will turn on an LED if the light level drops below a certain threshold. This project was created for a presentation to be given at Hopeworks Code Day.
+Presentation Slides The presentation slides can be viewed and downloaded here.
+Code The code for this project can be found under the code folder. This code can be copied and pasted in to the Build Editor in your console on Particle IO&amp;rsquo;s website.</description>
+    </item>
+    
+  </channel>
+</rss>

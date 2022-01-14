@@ -1,0 +1,4 @@
+baseURL = 'https://jeffcardillo.com/blog2/'
+languageCode = 'en-us'
+title = 'DevBytes'
+theme = 'serial-programmer'

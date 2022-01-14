@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arduino on DevBytes</title>
+    <link>https://jeffcardillo.com/blog2/tags/arduino/</link>
+    <description>Recent content in Arduino on DevBytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Oct 2018 00:44:58 -0500</lastBuildDate><atom:link href="https://jeffcardillo.com/blog2/tags/arduino/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hopeworks Code Day (Talk/Lab) - Arduino Circuit and Code Talk</title>
+      <link>https://jeffcardillo.com/blog2/posts/hopeworks-code-day-2018/</link>
+      <pubDate>Sat, 20 Oct 2018 00:44:58 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/posts/hopeworks-code-day-2018/</guid>
+      <description>This project reads the light level using a photoresistor and will turn on an LED if the light level drops below a certain threshold. This project was created for a presentation to be given at Hopeworks Code Day.
+Presentation Slides The presentation slides can be viewed and downloaded here.
+Code The code for this project can be found under the code folder. This code can be copied and pasted in to the Build Editor in your console on Particle IO&amp;rsquo;s website.</description>
+    </item>
+    
+    <item>
+      <title>Arduino Super Scooter</title>
+      <link>https://jeffcardillo.com/blog2/posts/arduino-super-scooter/</link>
+      <pubDate>Fri, 19 Jul 2013 08:25:29 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/posts/arduino-super-scooter/</guid>
+      <description>For the full source code of this project please visit the GitHub repo: https://github.com/jeffcardillo/arduino_super_scooter
+Simple game for arduino with LinkSprite LCD 16x2 display. I created this for my nephews to be a simple project they can play around with and modify when they come visit.
+The game first shows a &amp;ldquo;splash screen&amp;rdquo; with some text. Then has a &amp;ldquo;menu mode&amp;rdquo; where a player can select a difficulty setting. Then a &amp;ldquo;game mode&amp;rdquo; where a player can &amp;ldquo;win&amp;rdquo; or &amp;ldquo;lose&amp;rdquo; the game.</description>
+    </item>
+    
+  </channel>
+</rss>

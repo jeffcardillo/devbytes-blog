@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graph on DevBytes</title>
+    <link>https://jeffcardillo.com/blog2/tags/graph/</link>
+    <description>Recent content in Graph on DevBytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Feb 2018 05:40:32 -0500</lastBuildDate><atom:link href="https://jeffcardillo.com/blog2/tags/graph/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Playing with Kotlin: Shortest distance to Node in Graph</title>
+      <link>https://jeffcardillo.com/blog2/posts/shortest-distance-to-node-kotlin/</link>
+      <pubDate>Sun, 25 Feb 2018 05:40:32 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/posts/shortest-distance-to-node-kotlin/</guid>
+      <description>To help me explore Kotlin I&amp;rsquo;ve been writing toy projects. This project is for traversing a graph and finding the minimum distance between two nodes. The algorithm I put together will handle both directed and undirected graphs with weighted edges. My implementation is modeled closely to the Dijkstra&amp;rsquo;s Shortest Path approach, but should not be considered an example of that algorithm (because I have not checked to be sure my implementation matches the actual algorithm).</description>
+    </item>
+    
+  </channel>
+</rss>

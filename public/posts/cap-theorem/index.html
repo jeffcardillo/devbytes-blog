@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CAP Theorem - A Brief Discussion | DevBytes</title>
+  <link rel="stylesheet" href="https://jeffcardillo.com/blog2/assets/css/post.css" />
+  <script defer src="https://jeffcardillo.com/blog2/assets/js/lbox.js"></script>
+  
+  <link rel="stylesheet" href="https://jeffcardillo.com/blog2/assets/css/common.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+  <a class="site-title" href="https://jeffcardillo.com/blog2/">DevBytes</a>
+</header>
+
+      <section class="article">
+        <div class="article-header">
+          <h2 class="article-title">CAP Theorem - A Brief Discussion</h2>
+          <small class="date">Fri Jun 17, 2016</small>
+          <div class="tags">
+            
+            <a href="https://jeffcardillo.com/blog2/tags/Architecture" class="tag">Architecture</a>
+            
+            <a href="https://jeffcardillo.com/blog2/tags/Computer%20Science" class="tag">Computer Science</a>
+            
+          </div>
+        </div>
+        <div class="content"><p>Most of us have heard the popular proverb “you can’t have your cake and eat it too”. The literal meaning of this is that if you eat your cake, then it is gone, so you no longer have it. Metaphorically it teaches us that we cannot have two incompatible things.</p>
+<p>CAP theorem (aka Brewer’s theorem from Eric Brewer) makes a similar assertion for distributed computer systems. CAP theorem states that you can have at most two of the following three properties; Consistency, Availability, and Partition Tolerance, because any two are mutually exclusive to the third. A brief outline of the properties follows:</p>
+<ul>
+<li>Consistency refers to the property that all nodes in a distributed system see the same data at the same time.</li>
+<li>Availability refers to the property that the distributed system will always be able to respond to a given request.</li>
+<li>Partition tolerance refers to the ability for the distributed system to continue operation even when faced with network failures.</li>
+</ul>
+<p>Why are we limited to two?</p>
+<p>For a simple example, let’s assume we have a distributed system with 2 partitioned nodes, node-A and node-B. Having two nodes improves <em>availability</em> because each is independently capable of providing services. If node-A’s state is updated while the nodes are partitioned then node-B becomes inconsistent. We can ensure that the system maintains <em>consistency</em> by making node-B appear unavailable, but this requires us to give up <em>availability</em>. In order to have both <em>consistency</em> and <em>availability</em> we must allow both nodes to communicate, which gives up <em>partition</em> tolerance. This example illustrates that it isn’t possible to have all properties maximized; compromises need to be made. Traditionally, large distributed systems required <em>partition</em> tolerance so designers had to choose between <em>consistency</em> and <em>availability</em> for the second property.</p>
+<p>CAP theorem first appeared in 1998 and it still holds today, but savvy designers are able to play fast-and-loose with the “choose 2 out of 3” rule. One thing in the designer’s favor is that partitions are relatively rare in distributed systems. Another boon to the designer are modern techniques that grant flexibility when handling partitions and recovering from them after they happen. These allow designers to focus on maximizing combinations of <em>consistency</em> and <em>availability</em> for the specific need of the application until a <em>partition</em> actually occurs. When it does occur, the system may need to fall back to favoring either <em>availability</em> or <em>consistency</em> until the <em>partition</em> ends.</p>
+<p>There are still significant challenges in making this all work, such as detecting when a <em>partition</em> has occurred and implementing a recovery strategy when it does. For example, if <em>availability</em> is the chief concern during a <em>partition</em> event, the state of multiple nodes can progress independently and will need to be merged once the <em>partition</em> ends. The merge itself may present conflicts that will need to be dealt with by the system in order to return to a consistent state.</p>
+<p>That’s a very brief summary of CAP theorem. It tells us that when designing distributed computer systems we need to make compromises in order to achieve certain desirable characteristics. As architecture techniques and tools evolve, designers are able to maximize combinations of the properties depending on the state of the system. Even with these advancements, however, designers still cannot maximize all properties at all times; they cannot have their cake and eat it too.</p>
+</div>
+      </section>
+      <footer>
+  <p>&copy; 2022 </p>
+</footer>
+    </main>
+  </body>
+</html>

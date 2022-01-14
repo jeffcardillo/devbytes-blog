@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Movie DB - Introduction to MVVM, Databinding, and LiveData | DevBytes</title>
+  <link rel="stylesheet" href="https://jeffcardillo.com/blog2/assets/css/post.css" />
+  <script defer src="https://jeffcardillo.com/blog2/assets/js/lbox.js"></script>
+  
+  <link rel="stylesheet" href="https://jeffcardillo.com/blog2/assets/css/common.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+  <a class="site-title" href="https://jeffcardillo.com/blog2/">DevBytes</a>
+</header>
+
+      <section class="article">
+        <div class="article-header">
+          <h2 class="article-title">The Movie DB - Introduction to MVVM, Databinding, and LiveData</h2>
+          <small class="date">Wed Oct 30, 2019</small>
+          <div class="tags">
+            
+            <a href="https://jeffcardillo.com/blog2/tags/Android" class="tag">Android</a>
+            
+            <a href="https://jeffcardillo.com/blog2/tags/Kotlin" class="tag">Kotlin</a>
+            
+            <a href="https://jeffcardillo.com/blog2/tags/Programming" class="tag">Programming</a>
+            
+            <a href="https://jeffcardillo.com/blog2/tags/MVVM" class="tag">MVVM</a>
+            
+            <a href="https://jeffcardillo.com/blog2/tags/Databinding" class="tag">Databinding</a>
+            
+            <a href="https://jeffcardillo.com/blog2/tags/LiveData" class="tag">LiveData</a>
+            
+          </div>
+        </div>
+        <div class="content"><p>For the full source code of this project please visit the GitHub repo:
+<a href="https://github.com/jeffcardillo/TheMovieDB-Android-Architecture-Patterns">https://github.com/jeffcardillo/TheMovieDB-Android-Architecture-Patterns</a></p>
+<p>I created this project to do an instructional walkthrough of Model-View-ViewModel (MVVM), Data-binding and LiveData to fellow engineers at my workplace. I&rsquo;m using TheMovieDB API to fetch interesting data and show beautiful movie posters in this demo.</p>
+<p><img src="https://raw.githubusercontent.com/jeffcardillo/TheMovieDB-Android-Architecture-Patterns/master/presentation/TheMovieDb_example.gif" alt=""></p>
+<p>A presentation file is available <a href="https://github.com/jeffcardillo/TheMovieDB-Android-Architecture-Patterns/blob/master/presentation/MVVM%20with%20Data%20Binding.pdf">(presentation/MVVM with Data Binding.pdf)</a> that covers the specified patterns above. Please note that the format of the workshop will have attendees begin with a starter project - most of the code in the project is available but the specific pattern code is omitted. The goal is to then walk through the code and implement the patterns together. The starter project may not be added to this public github repository, but I wanted to outline why the presentation is formatted the way it is.</p>
+<h2 id="project-setup">Project Setup</h2>
+<h3 id="api-key-for-the-movie-db">API Key for The Movie DB</h3>
+<p>In order to run this project you will need to provide your own API KEY from <a href="https://www.themoviedb.org/">The Movie DB</a>. Simply sign up on their website and register an app - it is free and approval is instant. Once you have your API KEY enter it in your <code>local.properties</code> file like the following (where you replace the x&rsquo;s with your API KEY):</p>
+<pre tabindex="0"><code>THE_MOVIE_DB_API_KEY = &quot;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot;
+</code></pre><p>This is needed because the following entry in the <code>build.gradle</code> file will pull that value at build time and place it in the <code>BuildConfig</code> class:</p>
+<pre tabindex="0"><code>    defaultConfig {
+        Properties properties = new Properties()
+        properties.load(project.rootProject.file('local.properties').newDataInputStream())
+        buildConfigField &quot;String&quot;, &quot;THE_MOVIE_DB_API_KEY&quot;, properties.getProperty(&quot;THE_MOVIE_DB_API_KEY&quot;)
+    }
+</code></pre><p>The value of the API KEY can be used statically with <code>BuildConfig.THE_MOVIE_DB_API_KEY</code> in code. This approach allows you to use a local API KEY that will not be added to source control:</p>
+<h2 id="overview-of-code-structure">Overview of Code Structure</h2>
+<p>Please view the presentation included in this repository for a more formal walk-through of these concepts. Below I&rsquo;ll do a brief walkthrough of where to find the concepts implemented in code.</p>
+<h3 id="model-view-viewmodel-mvvm">Model-View-ViewModel (MVVM)</h3>
+<p>The <code>View</code> in this example project is the <code>MainFragment</code> class and layout. This class sets up the data binding, creates the ModelView</p>
+<p>The <code>ModelView</code> is implemented in a class called <code>MainViewModel</code>. This class will fetch new data from the data model when needed, and transform (sort) the data when an event is passed to it from the UI layer.</p>
+<p>The <code>Model</code> is represented as a <code>TheMovieDbMovie</code> object and the data is provided by the <code>ApiFactory</code> class (where an instance of <em>The Movie DB</em> API retrofit object is created).</p>
+<h3 id="databinding">DataBinding</h3>
+<p>Data binding is shown in in the fragment xml file <code>main_fragment.xml</code> in two ways:</p>
+<ol>
+<li>There is a click event binding to the <code>viewModel</code> object that will to send click events of the sort button directly to the view model.</li>
+<li>There is a binding to an object that <code>extends BaseObservable</code> that will update the text on the sort button for the purpose of demonstrating dynamically updating bindings.</li>
+</ol>
+<h3 id="livedata">LiveData</h3>
+<p>Movies that are retrived from the API are stored in <code>MainViewModel</code> as LiveData. The main UI layout will listen for change events to this stored data and update the layout automatically when the data changes. LiveData changed events will fire when new data is retreived from the API service and also when the data is sorted.</p>
+</div>
+      </section>
+      <footer>
+  <p>&copy; 2022 </p>
+</footer>
+    </main>
+  </body>
+</html>

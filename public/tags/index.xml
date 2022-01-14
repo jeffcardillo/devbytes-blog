@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on DevBytes</title>
+    <link>https://jeffcardillo.com/blog2/tags/</link>
+    <description>Recent content in Tags on DevBytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Jul 2020 00:41:26 -0500</lastBuildDate><atom:link href="https://jeffcardillo.com/blog2/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Android</title>
+      <link>https://jeffcardillo.com/blog2/tags/android/</link>
+      <pubDate>Sun, 05 Jul 2020 00:41:26 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Custom Views</title>
+      <link>https://jeffcardillo.com/blog2/tags/custom-views/</link>
+      <pubDate>Sun, 05 Jul 2020 00:41:26 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/tags/custom-views/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kotlin</title>
+      <link>https://jeffcardillo.com/blog2/tags/kotlin/</link>
+      <pubDate>Sun, 05 Jul 2020 00:41:26 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/tags/kotlin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Math</title>
+      <link>https://jeffcardillo.com/blog2/tags/math/</link>
+      <pubDate>Sun, 05 Jul 2020 00:41:26 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/tags/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>https://jeffcardillo.com/blog2/tags/programming/</link>
+      <pubDate>Sun, 05 Jul 2020 00:41:26 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conference</title>
+      <link>https://jeffcardillo.com/blog2/tags/conference/</link>
+      <pubDate>Thu, 12 Dec 2019 00:09:08 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/tags/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demuxed</title>
+      <link>https://jeffcardillo.com/blog2/tags/demuxed/</link>
+      <pubDate>Thu, 12 Dec 2019 00:09:08 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/tags/demuxed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Talk</title>
+      <link>https://jeffcardillo.com/blog2/tags/talk/</link>
+      <pubDate>Thu, 12 Dec 2019 00:09:08 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/tags/talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Video</title>
+      <link>https://jeffcardillo.com/blog2/tags/video/</link>
+      <pubDate>Thu, 12 Dec 2019 00:09:08 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/tags/video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WebRTC</title>
+      <link>https://jeffcardillo.com/blog2/tags/webrtc/</link>
+      <pubDate>Thu, 12 Dec 2019 00:09:08 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/tags/webrtc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Databinding</title>
+      <link>https://jeffcardillo.com/blog2/tags/databinding/</link>
+      <pubDate>Wed, 30 Oct 2019 00:44:05 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/tags/databinding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LiveData</title>
+      <link>https://jeffcardillo.com/blog2/tags/livedata/</link>
+      <pubDate>Wed, 30 Oct 2019 00:44:05 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/tags/livedata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MVVM</title>
+      <link>https://jeffcardillo.com/blog2/tags/mvvm/</link>
+      <pubDate>Wed, 30 Oct 2019 00:44:05 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/tags/mvvm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arduino</title>
+      <link>https://jeffcardillo.com/blog2/tags/arduino/</link>
+      <pubDate>Sat, 20 Oct 2018 00:44:58 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/tags/arduino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C</title>
+      <link>https://jeffcardillo.com/blog2/tags/c/</link>
+      <pubDate>Sat, 20 Oct 2018 00:44:58 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/tags/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Circuit</title>
+      <link>https://jeffcardillo.com/blog2/tags/circuit/</link>
+      <pubDate>Sat, 20 Oct 2018 00:44:58 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/tags/circuit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ParticleIO</title>
+      <link>https://jeffcardillo.com/blog2/tags/particleio/</link>
+      <pubDate>Sat, 20 Oct 2018 00:44:58 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/tags/particleio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proton</title>
+      <link>https://jeffcardillo.com/blog2/tags/proton/</link>
+      <pubDate>Sat, 20 Oct 2018 00:44:58 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/tags/proton/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>https://jeffcardillo.com/blog2/tags/java/</link>
+      <pubDate>Wed, 07 Mar 2018 22:07:53 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph</title>
+      <link>https://jeffcardillo.com/blog2/tags/graph/</link>
+      <pubDate>Sun, 25 Feb 2018 05:40:32 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/tags/graph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Architecture</title>
+      <link>https://jeffcardillo.com/blog2/tags/architecture/</link>
+      <pubDate>Fri, 17 Jun 2016 23:46:06 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/tags/architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Science</title>
+      <link>https://jeffcardillo.com/blog2/tags/computer-science/</link>
+      <pubDate>Fri, 17 Jun 2016 23:46:06 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/tags/computer-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cryptography</title>
+      <link>https://jeffcardillo.com/blog2/tags/cryptography/</link>
+      <pubDate>Thu, 24 Mar 2016 23:57:33 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/tags/cryptography/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Science on DevBytes</title>
+    <link>https://jeffcardillo.com/blog2/tags/computer-science/</link>
+    <description>Recent content in Computer Science on DevBytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Jun 2016 23:46:06 -0500</lastBuildDate><atom:link href="https://jeffcardillo.com/blog2/tags/computer-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CAP Theorem - A Brief Discussion</title>
+      <link>https://jeffcardillo.com/blog2/posts/cap-theorem/</link>
+      <pubDate>Fri, 17 Jun 2016 23:46:06 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/posts/cap-theorem/</guid>
+      <description>Most of us have heard the popular proverb “you can’t have your cake and eat it too”. The literal meaning of this is that if you eat your cake, then it is gone, so you no longer have it. Metaphorically it teaches us that we cannot have two incompatible things.
+CAP theorem (aka Brewer’s theorem from Eric Brewer) makes a similar assertion for distributed computer systems. CAP theorem states that you can have at most two of the following three properties; Consistency, Availability, and Partition Tolerance, because any two are mutually exclusive to the third.</description>
+    </item>
+    
+    <item>
+      <title>Presentation: Shannon’s Theorem for Key Length of Perfect Ciphers</title>
+      <link>https://jeffcardillo.com/blog2/posts/shannons-theorem/</link>
+      <pubDate>Thu, 24 Mar 2016 23:57:33 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/posts/shannons-theorem/</guid>
+      <description>I&amp;rsquo;m currently taking a Cryptography course at Drexel University as part of my Master of Software Engineering degree. An assignment that I just completed was to create a general presentation to give to the class; my topic was on Shannon&amp;rsquo;s Theorem for encryption key length.
+The presentation itself is fairly short - I was targeting 10 minutes. It starts off with an introduction to what Shannon Security and Perfect Secrecy mean, introduces Shannon&amp;rsquo;s Theorem for key length, discusses why key length is important for encryption, and concludes with what this means in practice.</description>
+    </item>
+    
+  </channel>
+</rss>

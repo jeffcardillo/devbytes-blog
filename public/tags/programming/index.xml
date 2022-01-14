@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on DevBytes</title>
+    <link>https://jeffcardillo.com/blog2/tags/programming/</link>
+    <description>Recent content in Programming on DevBytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Jul 2020 00:41:26 -0500</lastBuildDate><atom:link href="https://jeffcardillo.com/blog2/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fun with Math - Spinning Cylinder</title>
+      <link>https://jeffcardillo.com/blog2/posts/spinning-cylinder/</link>
+      <pubDate>Sun, 05 Jul 2020 00:41:26 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/posts/spinning-cylinder/</guid>
+      <description>For the full source code of this project please visit the GitHub repo: https://github.com/jeffcardillo/SpinningCylinderView
+I came across some art by Dave Whyte, particularly this piece, and was inspired to write some code! At some point I&amp;rsquo;d love to build the whole piece in code, but I started thinking about ways to render a 3D looking cylinder on a 2D canvas. The solution I came up with is to manipulate simple shapes based on the periodic changes of sine and cosine functions over time.</description>
+    </item>
+    
+    <item>
+      <title>The Movie DB - Introduction to MVVM, Databinding, and LiveData</title>
+      <link>https://jeffcardillo.com/blog2/posts/the-movie-db/</link>
+      <pubDate>Wed, 30 Oct 2019 00:44:05 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/posts/the-movie-db/</guid>
+      <description>For the full source code of this project please visit the GitHub repo: https://github.com/jeffcardillo/TheMovieDB-Android-Architecture-Patterns
+I created this project to do an instructional walkthrough of Model-View-ViewModel (MVVM), Data-binding and LiveData to fellow engineers at my workplace. I&amp;rsquo;m using TheMovieDB API to fetch interesting data and show beautiful movie posters in this demo.
+A presentation file is available (presentation/MVVM with Data Binding.pdf) that covers the specified patterns above. Please note that the format of the workshop will have attendees begin with a starter project - most of the code in the project is available but the specific pattern code is omitted.</description>
+    </item>
+    
+    <item>
+      <title>Method for Generating Variable Length Sequential Alpha-Numeric Strings (Brute-force Zip Password Crack)</title>
+      <link>https://jeffcardillo.com/blog2/posts/brute-force-zip-password-crack/</link>
+      <pubDate>Wed, 07 Mar 2018 22:07:53 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/posts/brute-force-zip-password-crack/</guid>
+      <description>I came across a 10+ year old zip for which I password protected but couldn&amp;rsquo;t remember the exact password. I thought it&amp;rsquo;d be fun to write a tool to crack the password for me!
+The source code for this project can be found here: https://github.com/jeffcardillo/BruteForceZipPasswordCrack
+This tool allows you to specify the exact set of characters to use in password attempts, as well as a range for the length of password.</description>
+    </item>
+    
+    <item>
+      <title>Playing with Kotlin: Shortest distance to Node in Graph</title>
+      <link>https://jeffcardillo.com/blog2/posts/shortest-distance-to-node-kotlin/</link>
+      <pubDate>Sun, 25 Feb 2018 05:40:32 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/posts/shortest-distance-to-node-kotlin/</guid>
+      <description>To help me explore Kotlin I&amp;rsquo;ve been writing toy projects. This project is for traversing a graph and finding the minimum distance between two nodes. The algorithm I put together will handle both directed and undirected graphs with weighted edges. My implementation is modeled closely to the Dijkstra&amp;rsquo;s Shortest Path approach, but should not be considered an example of that algorithm (because I have not checked to be sure my implementation matches the actual algorithm).</description>
+    </item>
+    
+    <item>
+      <title>Arduino Super Scooter</title>
+      <link>https://jeffcardillo.com/blog2/posts/arduino-super-scooter/</link>
+      <pubDate>Fri, 19 Jul 2013 08:25:29 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/posts/arduino-super-scooter/</guid>
+      <description>For the full source code of this project please visit the GitHub repo: https://github.com/jeffcardillo/arduino_super_scooter
+Simple game for arduino with LinkSprite LCD 16x2 display. I created this for my nephews to be a simple project they can play around with and modify when they come visit.
+The game first shows a &amp;ldquo;splash screen&amp;rdquo; with some text. Then has a &amp;ldquo;menu mode&amp;rdquo; where a player can select a difficulty setting. Then a &amp;ldquo;game mode&amp;rdquo; where a player can &amp;ldquo;win&amp;rdquo; or &amp;ldquo;lose&amp;rdquo; the game.</description>
+    </item>
+    
+  </channel>
+</rss>

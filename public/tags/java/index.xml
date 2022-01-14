@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on DevBytes</title>
+    <link>https://jeffcardillo.com/blog2/tags/java/</link>
+    <description>Recent content in Java on DevBytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Mar 2018 22:07:53 -0500</lastBuildDate><atom:link href="https://jeffcardillo.com/blog2/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Method for Generating Variable Length Sequential Alpha-Numeric Strings (Brute-force Zip Password Crack)</title>
+      <link>https://jeffcardillo.com/blog2/posts/brute-force-zip-password-crack/</link>
+      <pubDate>Wed, 07 Mar 2018 22:07:53 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/posts/brute-force-zip-password-crack/</guid>
+      <description>I came across a 10+ year old zip for which I password protected but couldn&amp;rsquo;t remember the exact password. I thought it&amp;rsquo;d be fun to write a tool to crack the password for me!
+The source code for this project can be found here: https://github.com/jeffcardillo/BruteForceZipPasswordCrack
+This tool allows you to specify the exact set of characters to use in password attempts, as well as a range for the length of password.</description>
+    </item>
+    
+  </channel>
+</rss>

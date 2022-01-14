@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Math on DevBytes</title>
+    <link>https://jeffcardillo.com/blog2/tags/math/</link>
+    <description>Recent content in Math on DevBytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Jul 2020 00:41:26 -0500</lastBuildDate><atom:link href="https://jeffcardillo.com/blog2/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fun with Math - Spinning Cylinder</title>
+      <link>https://jeffcardillo.com/blog2/posts/spinning-cylinder/</link>
+      <pubDate>Sun, 05 Jul 2020 00:41:26 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/posts/spinning-cylinder/</guid>
+      <description>For the full source code of this project please visit the GitHub repo: https://github.com/jeffcardillo/SpinningCylinderView
+I came across some art by Dave Whyte, particularly this piece, and was inspired to write some code! At some point I&amp;rsquo;d love to build the whole piece in code, but I started thinking about ways to render a 3D looking cylinder on a 2D canvas. The solution I came up with is to manipulate simple shapes based on the periodic changes of sine and cosine functions over time.</description>
+    </item>
+    
+  </channel>
+</rss>

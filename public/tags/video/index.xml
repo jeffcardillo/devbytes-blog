@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Video on DevBytes</title>
+    <link>https://jeffcardillo.com/blog2/tags/video/</link>
+    <description>Recent content in Video on DevBytes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Dec 2019 00:09:08 -0500</lastBuildDate><atom:link href="https://jeffcardillo.com/blog2/tags/video/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Demuxed Lightening Talk - Non-Standard Codecs with Standard WebRTC</title>
+      <link>https://jeffcardillo.com/blog2/posts/demuxed-2019/</link>
+      <pubDate>Thu, 12 Dec 2019 00:09:08 -0500</pubDate>
+      
+      <guid>https://jeffcardillo.com/blog2/posts/demuxed-2019/</guid>
+      <description>I performed &amp;ldquo;side-kick&amp;rdquo; duty and gave a talk with Bryan at Demuxued 2019. The topic was how you can use non-standard codecs with WebRTC.
+
+https://www.youtube.com/watch?v=99FqwKka6mg</description>
+    </item>
+    
+  </channel>
+</rss>

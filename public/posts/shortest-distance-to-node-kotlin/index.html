@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Playing with Kotlin: Shortest distance to Node in Graph | DevBytes</title>
+  <link rel="stylesheet" href="https://jeffcardillo.com/blog2/assets/css/post.css" />
+  <script defer src="https://jeffcardillo.com/blog2/assets/js/lbox.js"></script>
+  
+  <link rel="stylesheet" href="https://jeffcardillo.com/blog2/assets/css/common.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+  <a class="site-title" href="https://jeffcardillo.com/blog2/">DevBytes</a>
+</header>
+
+      <section class="article">
+        <div class="article-header">
+          <h2 class="article-title">Playing with Kotlin: Shortest distance to Node in Graph</h2>
+          <small class="date">Sun Feb 25, 2018</small>
+          <div class="tags">
+            
+            <a href="https://jeffcardillo.com/blog2/tags/Graph" class="tag">Graph</a>
+            
+            <a href="https://jeffcardillo.com/blog2/tags/Kotlin" class="tag">Kotlin</a>
+            
+            <a href="https://jeffcardillo.com/blog2/tags/Programming" class="tag">Programming</a>
+            
+          </div>
+        </div>
+        <div class="content"><p>To help me explore Kotlin I&rsquo;ve been writing toy projects. This project is for traversing a graph and finding the minimum distance between two nodes. The algorithm I put together will handle both directed and undirected graphs with weighted edges. My implementation is modeled closely to the Dijkstra&rsquo;s Shortest Path approach, but should not be considered an example of that algorithm (because I have not checked to be sure my implementation matches the actual algorithm).</p>
+<p>The source code for this project can be found here: <a href="https://github.com/jeffcardillo/KotlinGraphTraversal">https://github.com/jeffcardillo/KotlinGraphTraversal</a></p>
+<h3 id="undirected-graph">Undirected Graph</h3>
+<p>Figure A shows the undirected graph my program will build and run tests against. With an undirected graph, you can move both ways across an edge. For example, by adding an edge from A &ndash;&gt; B, you can also move from B &ndash;&gt; A.</p>
+<p><img src="https://raw.githubusercontent.com/jeffcardillo/KotlinGraphTraversal/master/docs/media/figure_a_undirected_graph.png" alt="Image of undirected graph"></p>
+<p>Figure A. (Above)</p>
+<p>The output of my program building the above graph and then calculating the minimum distance to and from some nodes:</p>
+<p>Building Undirected Graph for Figure A.</p>
+<pre tabindex="0"><code>
+A &lt;---&gt; B (15) 
+A &lt;---&gt; C (25) 
+B &lt;---&gt; E (10) 
+B &lt;---&gt; H (5) 
+B &lt;---&gt; I (25) 
+C &lt;---&gt; D (10) 
+C &lt;---&gt; E (20) 
+F &lt;---&gt; E (10) 
+I &lt;---&gt; H (15) 
+E &lt;---&gt; G (5)
+
+Distance A ---&gt; A = 0 
+Distance A ---&gt; B = 15
+Distance A ---&gt; C = 25
+Distance A ---&gt; D = 35
+Distance A ---&gt; E = 25
+Distance A ---&gt; F = 35
+Distance A ---&gt; G = 30
+Distance A ---&gt; H = 20
+Distance A ---&gt; I = 35
+Distance E ---&gt; F = 10
+Distance D ---&gt; I = 60
+Distance B ---&gt; F = 30
+Distance A ---&gt; &quot;No Path&quot; = -1
+</code></pre><h3 id="directed-graph">Directed Graph</h3>
+<p>Figure B shows the directed graph my program will build and run tests against. With a directed graph, you can only move a single direction across an edge (in the direction the arrow points). For example, by adding an edge from A &ndash;&gt; B, you can only move from A to B with that edge. You cannot move from B &ndash;&gt; A with that edge.</p>
+<p><img src="https://raw.githubusercontent.com/jeffcardillo/KotlinGraphTraversal/master/docs/media/figure_b_directed_graph.png" alt="Image of directed graph"></p>
+<p>Figure B. (Above)</p>
+<p>The output of my program building the above graph and then calculating the minimum distance to and from some nodes:</p>
+<p>Building Directed Graph for Figure B.</p>
+<pre tabindex="0"><code>
+A ---&gt; B (1)
+B ---&gt; C (2)
+C ---&gt; A (3)
+A ---&gt; D (4)
+
+Distance A ---&gt; B = 1
+Distance A ---&gt; C = 3
+Distance A ---&gt; D = 4
+Distance B ---&gt; D = 9
+Distance C ---&gt; A = 3
+</code></pre><p>While I&rsquo;ve kept my directed and undirected graph examples separate, there is no limitation that requires a graph to be all one type or the other. You can mix directed edge with undirected edges in your graphs.</p>
+</div>
+      </section>
+      <footer>
+  <p>&copy; 2022 </p>
+</footer>
+    </main>
+  </body>
+</html>
