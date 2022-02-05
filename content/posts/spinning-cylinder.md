@@ -1,7 +1,7 @@
 ---
-title: "Fun with Math - Spinning Cylinder"
+title: "Fun with Math - Animated Spinning Cylinder in Kotlin"
 date: 2020-07-05T00:41:26-05:00
-tags: ["Android", "Kotlin", "Programming", "Custom Views", "Math"]
+tags: ["Android", "Kotlin", "Programming", "Custom View", "Math"]
 draft: false
 ---
 
@@ -29,7 +29,7 @@ Next, I wanted to change the drawing order of the circles so that as they "spun"
 
 ![progression 2](https://raw.githubusercontent.com/jeffcardillo/SpinningCylinderView/master/docs/progression_2.gif)
 
-Now I needed to show perspective where it would model how a cylinder would look turning away or turning toward you. To do this I wanted to modify the height of the circle. Note that a an end of a cylinder would look like a perfect circle when it faced you directly, and then "squish" has it turned away from you. For this I decided to use the `sine` function. Notice in the graph above that `sine` moves to 0 as `cosine` moves to 1. Using this to modify the circle height gives us this:
+Now I needed to show perspective where it would model how a cylinder would look turning away or turning toward you. To do this I wanted to modify the height of the circle. Note that an end of a cylinder would look like a perfect circle when it faced you directly, and then "squish" has it turned away from you. For this I decided to use the `sine` function. Notice in the graph above that `sine` moves to 0 as `cosine` moves to 1. Using this to modify the circle height gives us this:
 
 ![progression 3](https://raw.githubusercontent.com/jeffcardillo/SpinningCylinderView/master/docs/progression_3.gif)
 

@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fun with Math - Spinning Cylinder | DevBytes</title>
+  <title>Fun with Math - Animated Spinning Cylinder in Kotlin | DevBytes</title>
   <link rel="stylesheet" href="https://jeffcardillo.com/blog2/assets/css/post.css" />
   <script defer src="https://jeffcardillo.com/blog2/assets/js/lbox.js"></script>
   
@@ -18,7 +18,7 @@
 
       <section class="article">
         <div class="article-header">
-          <h2 class="article-title">Fun with Math - Spinning Cylinder</h2>
+          <h2 class="article-title">Fun with Math - Animated Spinning Cylinder in Kotlin</h2>
           <small class="date">Sun Jul 5, 2020</small>
           <div class="tags">
             
@@ -28,7 +28,7 @@
             
             <a href="https://jeffcardillo.com/blog2/tags/Programming" class="tag">Programming</a>
             
-            <a href="https://jeffcardillo.com/blog2/tags/Custom%20Views" class="tag">Custom Views</a>
+            <a href="https://jeffcardillo.com/blog2/tags/Custom%20View" class="tag">Custom View</a>
             
             <a href="https://jeffcardillo.com/blog2/tags/Math" class="tag">Math</a>
             
@@ -46,7 +46,7 @@
 <p><img src="https://raw.githubusercontent.com/jeffcardillo/SpinningCylinderView/master/docs/progression_1.gif" alt="progression 1"></p>
 <p>Next, I wanted to change the drawing order of the circles so that as they &ldquo;spun&rdquo; the top and bottom circle would switch which appeared above the other. Currently I&rsquo;m just doing this by checking if the <code>cosine</code> value is decreasing or increasing and changing the drawing order appropriately. Note that this gif looks funny out of context because the color jumps from one circle to the other, but this represents the outside vs. the inside of the circle being shown. The next visual will tie this concept together:</p>
 <p><img src="https://raw.githubusercontent.com/jeffcardillo/SpinningCylinderView/master/docs/progression_2.gif" alt="progression 2"></p>
-<p>Now I needed to show perspective where it would model how a cylinder would look turning away or turning toward you. To do this I wanted to modify the height of the circle. Note that a an end of a cylinder would look like a perfect circle when it faced you directly, and then &ldquo;squish&rdquo; has it turned away from you. For this I decided to use the <code>sine</code> function. Notice in the graph above that <code>sine</code> moves to 0 as <code>cosine</code> moves to 1. Using this to modify the circle height gives us this:</p>
+<p>Now I needed to show perspective where it would model how a cylinder would look turning away or turning toward you. To do this I wanted to modify the height of the circle. Note that an end of a cylinder would look like a perfect circle when it faced you directly, and then &ldquo;squish&rdquo; has it turned away from you. For this I decided to use the <code>sine</code> function. Notice in the graph above that <code>sine</code> moves to 0 as <code>cosine</code> moves to 1. Using this to modify the circle height gives us this:</p>
 <p><img src="https://raw.githubusercontent.com/jeffcardillo/SpinningCylinderView/master/docs/progression_3.gif" alt="progression 3"></p>
 <p>Now I just need to connect the circles with a body piece. Just a simple rectangle. I will first show the body drawn as a different color so that you can see it distinctly:</p>
 <p><img src="https://raw.githubusercontent.com/jeffcardillo/SpinningCylinderView/master/docs/progression_4.gif" alt="progression 4"></p>
